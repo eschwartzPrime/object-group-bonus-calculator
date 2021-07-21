@@ -1,12 +1,12 @@
 Todo
 
 [x] Loop over employees array
-    [ ] use each employee as fn input
-    [ ] console.log result of each iteration
+    [x] use each employee as fn input
+    [x] console.log result of each iteration
 
 [ ] A Function
-    [ ] arg is employee object
-    [ ] return is an object
+    [x] arg is employee object
+    [x] return is an object
         [ ] name
         [ ] bonusPercentage
         [ ] totalCompensation

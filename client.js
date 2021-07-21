@@ -53,14 +53,31 @@ console.log( employees );
  */
 function bonusCalculator(employee) {
   // Test my function calling skillz
-  console.log('employee arg to bonusCalculator', employee);
+  //console.log('employee arg to bonusCalculator', employee);
+
+  let compensationInfo = {
+    // Use this employee's name
+    name: employee.name,
+    bonusPercentage: 'bonusPercentage',
+    totalCompensation: 'totalComp',
+    totalBonus: 'totalBonus'
+  };
+
+  return compensationInfo;
 }
 
 // Loop over employees array
 for (let employee of employees) {
   // test my looping skillz
-  console.log('employee in for loop', employee);
+  //console.log('employee in for loop', employee);
 
   // Use each employee as a function input
-  bonusCalculator(employee);
+  // compInfo is equal to the return value
+  // of the bonusCalculator function
+  let compInfo = bonusCalculator(employee);
+  // console log result of each iteration
+  console.log(`compInfo for ${employee.name}`, compInfo);
+
+  // Eventually, we'll do something like
+  // $('#table').append(/* compInfo */)
 }
