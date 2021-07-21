@@ -42,8 +42,25 @@ const employees = [
 
 console.log( employees );
 
+/**
+ * Calculate bonus and compensation info
+ * arg is an employee object (item from the employee array)
+ * returns an object with
+ * - name
+ * - bonusPercentage
+ * - totalCompensation
+ * - totalBonus
+ */
+function bonusCalculator(employee) {
+  // Test my function calling skillz
+  console.log('employee arg to bonusCalculator', employee);
+}
+
 // Loop over employees array
 for (let employee of employees) {
   // test my looping skillz
   console.log('employee in for loop', employee);
+
+  // Use each employee as a function input
+  bonusCalculator(employee);
 }

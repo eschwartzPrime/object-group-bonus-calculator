@@ -1,6 +1,6 @@
 Todo
 
-[ ] Loop over employees array
+[x] Loop over employees array
     [ ] use each employee as fn input
     [ ] console.log result of each iteration
 
