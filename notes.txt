@@ -1,0 +1,17 @@
+Todo
+
+[ ] Loop over employees array
+    [ ] use each employee as fn input
+    [ ] console.log result of each iteration
+
+[ ] A Function
+    [ ] arg is employee object
+    [ ] return is an object
+        [ ] name
+        [ ] bonusPercentage
+        [ ] totalCompensation
+        [ ] totalBonus
+
+[ ] Bonus calculation
+    ....lots of fancy logic here...
+    see README.md

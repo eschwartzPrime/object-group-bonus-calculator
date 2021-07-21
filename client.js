@@ -41,3 +41,9 @@ const employees = [
 // Ask questions when you don't.
 
 console.log( employees );
+
+// Loop over employees array
+for (let employee of employees) {
+  // test my looping skillz
+  console.log('employee in for loop', employee);
+}
